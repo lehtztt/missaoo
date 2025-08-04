@@ -8,5 +8,20 @@ const caixaResultado = document.querySelector(".caixa-pricipal");
 
 const caixaResultado = document.querySelector(".caixa-pricipal");
 
-const lista = [ ];
-const perguntas [ ];
+const lista = [];
+const perguntas [
+    {
+        enunciado: "Perguntas"
+    Alternativa: ["Alternativa 1","Alternativa 2"
+
+        ]
+}
+
+(
+            enunciado: "Perguntas"
+    Alternativa: [
+                "Alternativa 1",
+                "Alternativa 2"
+    )
+
+]//fecha lista
