@@ -11,17 +11,28 @@ const caixaResultado = document.querySelector(".caixa-pricipal");
 const lista = [];
 const perguntas [
     {
-        enunciado: "Perguntas"
-    Alternativa: ["Alternativa 1","Alternativa 2"
-
-        ]
+        enunciado: "Perguntas 1"
+    Alternativa: ["Alternativa 1","Alternativa 2"]
 }
 
-(
-            enunciado: "Perguntas"
-    Alternativa: [
-                "Alternativa 1",
-                "Alternativa 2"
-    )
+  {
+        enunciado: "Perguntas 2"
+    Alternativa: ["Alternativa 1","Alternativa 2"]
+}
+
+  {
+        enunciado: "Perguntas 3"
+    Alternativa: ["Alternativa 1","Alternativa 2"]
+}
+
+  {
+        enunciado: "Perguntas 4"
+    Alternativa: ["Alternativa 1","Alternativa 2"]
+}
+
+  {
+        enunciado: "Perguntas 5"
+    Alternativa: ["Alternativa 1","Alternativa 2"]
+}
 
 ]//fecha lista
