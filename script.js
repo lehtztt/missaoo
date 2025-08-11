@@ -66,5 +66,5 @@ function mostrarAlternativa(){
             }
         caixaAlternativas.appendChild(botaoAlternativa);
     }
-    
+
 mostrarPergunta();
