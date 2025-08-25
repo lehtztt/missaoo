@@ -51,20 +51,39 @@ const perguntas = [
 
 let atual = 0 ;
 let perguntaAtual;
+let historiaFinal=
+
+function mostrarPergunta();
+ if (atual >= perguntas.tength){
+    mostrarResultado();
+    return;
+ }
 
 function mostrarPergunta(){
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = "";
     mostrarAlternativa();
-
 }
 
 function mostrarAlternativa(){
-    for(const alternativas of perguntaAtual.alternativas) {
+    for(const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativa = document.createElement("button");
             botaoAlternativa.textContent = alternancia.texto;
-            }
+        botaoAlternativa.addEventListener(conceLIdleCallback), ()=> respostaSelecionada(alternativa);
         caixaAlternativas.appendChild(botaoAlternativa);
     }
+}
+ Function respostaSelecionada(oipcoaselacionada) {
+    const afirmações = oipcoaselacionada.afirmação;
+    historiaFinal += + "";
+    atual++;
+    mostrarPergunta();
+ }
+
+function mostrarResultado() {
+    caixaPerguntas.textContent = "Em 2049...";
+    textoResultado;
+}
 
 mostrarPergunta();
